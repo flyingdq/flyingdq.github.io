@@ -6,4 +6,4 @@ draft: false
 
 # this is my first page
 
-Welcome!
+Hello friend!
