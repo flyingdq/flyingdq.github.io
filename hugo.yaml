@@ -9,10 +9,25 @@ params:
 
   homeInfoParams:
     Title: Flying dq
-    Content: Welcome
+    Content: >
+      欢迎技术交流、合作!
+
+      **QQ** 16413146
 
   socialIcons: # optional
     - name: "github"
       url: "https://github.com/flyingdq/"
     - name: "Rss"
       url: "index.xml"
+
+  menu:
+    main:
+      - name: Archive
+        url: archives/
+        weight: 5
+      - name: Search
+        url: search/
+        weight: 10
+      - name: Tags
+        url: tags/
+        weight: 10
