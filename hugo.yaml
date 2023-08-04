@@ -12,7 +12,7 @@ params:
     Content: >
       欢迎技术交流、合作!
 
-      **QQ** 16413146
+      - **QQ** 16413146
 
   socialIcons: # optional
     - name: "github"
