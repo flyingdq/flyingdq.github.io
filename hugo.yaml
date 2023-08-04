@@ -4,8 +4,29 @@ paginate : 5
 title : 'flyingdq'
 theme : 'PaperMod'
 
+menu:
+  main:
+    - name: Archive
+      url: archives/
+      weight: 5
+    - name: Search
+      url: search/
+      weight: 10
+    - name: Tags
+      url: tags/
+      weight: 10
+
 params:
   defaultTheme: dark
+  ShowShareButtons: true
+  ShowReadingTime: true
+  # disableSpecial1stPost: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowToc: true
 
   homeInfoParams:
     Title: Flying dq
@@ -19,15 +40,3 @@ params:
       url: "https://github.com/flyingdq/"
     - name: "Rss"
       url: "index.xml"
-
-  menu:
-    main:
-      - name: Archive
-        url: archives/
-        weight: 5
-      - name: Search
-        url: search/
-        weight: 10
-      - name: Tags
-        url: tags/
-        weight: 10
