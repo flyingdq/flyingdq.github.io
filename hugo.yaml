@@ -1,4 +1,18 @@
 baseURL : 'https://flyingdq.github.io/'
-languageCode : 'en-us'
+languageCode : 'zh-CN'
+paginate : 5
 title : 'flyingdq'
 theme : 'PaperMod'
+
+params:
+  defaultTheme: dark
+
+  homeInfoParams:
+    Title: Flying dq
+    Content: Welcome
+
+  socialIcons: # optional
+    - name: "<platform>"
+      url: "<link>"
+    - name: "<platform 2>"
+      url: "<link2>"
