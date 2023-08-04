@@ -12,7 +12,7 @@ params:
     Content: Welcome
 
   socialIcons: # optional
-    - name: "<platform>"
-      url: "<link>"
-    - name: "<platform 2>"
-      url: "<link2>"
+    - name: "github"
+      url: "https://github.com/flyingdq/"
+    - name: "Rss"
+      url: "index.xml"
